@@ -157,7 +157,9 @@ main .heading {
 html.second main .heading {
     font-size: 9vw;
 }
-
+html.third main .heading {
+    font-size: 8vw;
+}
 main .content {
     height: 100%;
     padding-top: 2rem;
