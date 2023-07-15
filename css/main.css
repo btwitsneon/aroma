@@ -177,6 +177,24 @@ main .content .item .preview {
 main .content .item:nth-child(odd) {
     padding-top: .5rem;
 }
+
+/* media */
+@media screen and (max-width: 640px) {
+    main .content .item:not(:nth-child(1)) {
+        width: 10%;
+    }
+    main .content .item:not(:nth-child(1)) h4 {
+        display: none;
+    }
+    main .content .item:first-child {
+        order: 1;
+    }
+    main .content .item:last-child {
+        order: 2;
+    }
+}
+
+
 /* animation */
 @keyframes noiseTextureAnim {
     0% {
