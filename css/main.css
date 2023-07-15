@@ -51,7 +51,7 @@ body:hover {
     background: #B7A58B;
 }
 html.second body {
-    max-width: 90vw;
+    max-width: 80vw;
     margin: 0 auto;
 }
 
@@ -150,7 +150,7 @@ main .heading {
 }
 
 html.second main .heading {
-    font-size: 10vw;
+    font-size: 9vw;
 }
 
 main .content {
