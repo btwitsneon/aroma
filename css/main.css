@@ -44,7 +44,8 @@ html body {
     background: #fff;
     transition: background 200ms ease;
 }
-html.second {
+html.second,
+html.third {
     background-color: #1F1A14;
 }
 body:hover {
@@ -53,6 +54,10 @@ body:hover {
 html.second body {
     max-width: 80vw;
     margin: 0 auto;
+}
+html.third body {
+    max-height: 80vh;
+    margin-top: 10vh;
 }
 
 body {
