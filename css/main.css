@@ -179,7 +179,7 @@ main .content .item .preview {
     height: 100%;
     background-color: #1F1A14;
     background-size: cover;
-    background-position: center;
+    background-position: top center;
 }
 main .content .item:nth-child(odd) {
     padding-top: .5rem;
